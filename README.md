@@ -19,3 +19,4 @@ if (getAsyncKeyState(VK_RBUTTON) //Right Mouse Button
 }
 
 You will need to update offsets sometimes, i have another repository on my github with all offsets
+r
