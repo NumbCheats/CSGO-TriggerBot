@@ -10,13 +10,11 @@ IF you would like to add so when a key is held down, it will activate it, you ne
 				Sleep(100);
        
 With This:
-
-if (getAsyncKeyState(VK_RBUTTON) //Right Mouse Button
-{
+        if (getAsyncKeyState(VK_RBUTTON) //Right Mouse Button
+        {
         mouse_event(MOUSEEVENTF_LEFTDOWN, NULL, NULL, 0, 0);
 				mouse_event(MOUSEEVENTF_LEFTUP, NULL, NULL, 0, 0);
 				Sleep(100); //Optional
-}
+        }
 
 You will need to update offsets sometimes, i have another repository on my github with all offsets
-r
